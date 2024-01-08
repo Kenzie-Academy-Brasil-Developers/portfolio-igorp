@@ -32,7 +32,6 @@
   height: 220px;
 
   overflow: hidden;
-  
 }
 
 .project picture img {
@@ -54,29 +53,53 @@
 }
 
 .project div {
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
 
-    padding: 0 8px;
-    margin-top: auto;
+  padding: 0 8px;
+  margin-top: auto;
 }
 
 .project div span {
-    font-size: 12px;
-    font-weight: 300;
-    color: var(--secondary);
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--secondary);
 
-    padding: 4px 8px;
-    border-radius: 2px;
-    background: var(--background-badge);
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: var(--background-badge);
 }
 
 .project:hover picture img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .project:hover strong {
-    color: var(--link);
-
+  color: var(--link);
 }
+
+@media (max-width: 1080px) {
+  .projects {
+    padding: 24px;
+  }
+
+  #project__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  #project__content {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .project picture {
+    height: 180px;
+  
+  
+  
+  }
+} 
