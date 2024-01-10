@@ -3,25 +3,25 @@
       "name": "Hamburgueria Kenzie",
       "image": "./assets/Captura de tela 2024-01-07 145816.png",
       "tags": ["Context API", "TypeScript", "React Hook Form"],
-      "link": "https://kenzie-burguer-v2-template-igorp332-igorp332.vercel.app/"
+      "link": "https://github.com/igorp332/hamburgueria-da-kenzie-igorp332"
     },
       {
       "name": "Git Search",
       "image": "./assets/Captura de tela 2024-01-07 151019.png",
       "tags": ["Context API", "CCS3", "Javascript"],
-      "link": "https://animated-potato-7vkm5mg.pages.github.io/"
+      "link": "https://github.com/Kenzie-Academy-Brasil-Developers/gitSearchBase-igorp332/"
     },
       {
       "name": "Rede Social Kenzie",
       "image": "./assets/Captura de tela 2024-01-07 151236.png",
       "tags": ["Javascript", "CSS variável", "Site Responsivo"],
-      "link": "https://solid-doodle-z7465m8.pages.github.io/"
+      "link": "https://github.com/Kenzie-Academy-Brasil-Developers/Sprint-03-criando-rede-social_igorp332"
     },
     {
         "name": "API PokéAPI",
         "image": "./assets/Captura de tela 2024-01-07 151423.png",
         "tags": ["Javascript", "CSS variável", "Context API"],
-        "link": "https://probable-enigma-0e92879f.pages.github.io/"
+        "link": "https://github.com/Kenzie-Academy-Brasil-Developers/-Kenzie-Academy-Brasil-Developers-consumindo-API-PokeAPI_igor3321"
       }
       
   ]
